@@ -1,0 +1,69 @@
+.titleProject
+{
+    color: darkred;
+    font-size: 125px;
+    font-family: Arial, Bold;
+    position: fixed;
+    top: 100px;
+    left:600px;
+}
+
+.BTScriptTitle
+{
+    float: left;
+    font-size: 45px;
+    font-family: Arial;
+    color: salmon;
+    text-decoration: none;
+
+    position: relative;
+    left: 325px;
+}
+
+.BTScriptDescription
+{
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial;
+    color: #00FA77;
+}
+
+.ComingSoonTitle
+{
+    float: left;
+    font-size: 45px;
+    font-family: Arial;
+    color: salmon;
+    text-decoration: none;
+
+    position: relative;
+    left: 525px;
+}
+
+.ComingSoonDescription
+{
+    float: right;
+    font-size: 25px;
+    font-family: Arial;
+    color: #00FA77;
+
+    position: relative;
+    bottom: -60px;
+    right: 380px;
+}
+.BTScriptContainer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.BTScriptContainer img {
+    max-height: 200px;
+    max-width: 200px;
+    object-fit: cover;
+}
+
+.BTScriptIMG
+{
+    text-align: center;
+}

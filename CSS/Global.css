@@ -1,0 +1,75 @@
+body {
+    background: linear-gradient(to left top, #0a0a0a, #363636) fixed;
+}
+
+.pp
+{
+    width: 15%;
+    border-radius: 50%;
+}
+
+.ppContainer
+{
+    text-align: center;
+}
+
+.AboutButton
+{
+    color: salmon;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 50px;
+
+    position: fixed;
+    right: 0px;
+    top: 0px;
+}
+
+.ProjectButton
+{
+    color: salmon;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 50px;
+
+    position: fixed;
+    right: 150px;
+    top: 0px;
+}
+
+.ContactButton
+{
+    color: salmon;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 50px;
+
+    position: fixed;
+    right: 350px;
+    top: 0px;
+}
+
+.HomeButton
+{
+    color: salmon;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 50px;
+
+    position: relative;
+    position: fixed;
+    right: 575px;
+    top: 0px;
+}
+
+.CopyrightText
+{
+    color: white;
+
+    font-family: Arial;
+    font-size: 20px;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
