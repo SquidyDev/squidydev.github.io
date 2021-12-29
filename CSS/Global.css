@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to left top, #0a0a0a, #363636) fixed;
+    background: linear-gradient(to left top, #afaabd, #353241) fixed;
 }
 
 .pp
@@ -15,7 +15,7 @@ body {
 
 .AboutButton
 {
-    color: salmon;
+    color: #464abd;
     text-decoration: none;
     font-family: Arial;
     font-size: 50px;
@@ -27,7 +27,7 @@ body {
 
 .ProjectButton
 {
-    color: salmon;
+    color: #464abd;
     text-decoration: none;
     font-family: Arial;
     font-size: 50px;
@@ -39,7 +39,7 @@ body {
 
 .ContactButton
 {
-    color: salmon;
+    color: #464abd;
     text-decoration: none;
     font-family: Arial;
     font-size: 50px;
@@ -51,7 +51,7 @@ body {
 
 .HomeButton
 {
-    color: salmon;
+    color: #464abd;
     text-decoration: none;
     font-family: Arial;
     font-size: 50px;
@@ -64,7 +64,7 @@ body {
 
 .CopyrightText
 {
-    color: white;
+    color: #afaabd;
 
     font-family: Arial;
     font-size: 20px;
