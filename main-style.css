@@ -1,0 +1,58 @@
+.mainTitle
+{
+    color: #F2EBE9;
+    font-family:    Arial, Helvetica, sans-serif;
+    position: absolute;
+    text-align: center; 
+    top : 50%;
+    left : 50%;
+    font-size: 2cm;
+    
+    transform: translate(-50%, -300%);
+}
+
+.loadingText
+{
+    color: #33E000;
+    font-family:    Arial, Helvetica, sans-serif;
+    position: absolute;
+    text-align: center; 
+    top : 50%;
+    left : 50%;
+    font-size: 2cm;
+    
+    transform: translate(-50%, -300%);
+}
+
+.mainTitleTwo
+{
+    color: #F2EBE9;
+    font-family:    Arial, Helvetica, sans-serif;
+    text-decoration: underline;     
+    position: absolute;
+    text-align: center; 
+    top : 50%;
+    left : 50%;
+    font-size: 2cm;
+    
+    transform: translate(-50%, 50%);
+}
+
+
+.mainTitleDesc
+{
+    color: #F2EBE9;
+    font-family:    Arial, Helvetica, sans-serif;
+    position: absolute;
+    text-align: center; 
+    top : 50%;
+    left : 50%;
+    font-size: 18px;
+    
+    transform: translate(-50%, -660%);
+}
+
+body
+{
+    background-color: rgb(31, 31, 31);
+}
