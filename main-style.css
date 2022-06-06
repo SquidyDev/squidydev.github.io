@@ -46,7 +46,7 @@
 
 .sectionTitle
 {
-    text-align: center; 
+    text-align: center;
     top : 50%;
     left : 50%;
     font-size: 1cm;
@@ -92,6 +92,12 @@
     position: absolute;
     left: 50%;
     transform: translate(100%, 0%);
+}
+
+.ProjectSection
+{
+    background-color: #A5BECC;
+    transform: translate(0%, -75%);
 }
 
 html, body {

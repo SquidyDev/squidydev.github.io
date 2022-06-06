@@ -6,7 +6,7 @@ $(document).ready(function(){
     var pastDelay = 0;
     var text = "SquidyDev"; 
     var currentOutput = "> _";
-    var timePerIteration = 400;
+    var timePerIteration = 0;
 
     $("body").css({"background-image": "linear-gradient(to bottom right, rgb(31, 31, 31), rgb(54, 54, 54))"});
 
