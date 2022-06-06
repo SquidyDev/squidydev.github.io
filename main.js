@@ -37,5 +37,6 @@ $(document).ready(function(){
     setTimeout(function() {
         $(LoadingText).text("");
         $('body > :not(#myDiv)').fadeIn(1000);
+        alert("Website under construction !");
     }, pastDelay);
 });

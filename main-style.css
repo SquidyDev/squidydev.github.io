@@ -11,6 +11,12 @@
     transform: translate(-50%, -300%);
 }
 
+.MainDiv
+{
+    background-color: rgb(31, 31, 31);
+    height: 100vh;
+}
+
 .loadingText
 {
     color: #33E000;
@@ -23,21 +29,6 @@
     
     transform: translate(-50%, -300%);
 }
-
-.mainTitleTwo
-{
-    color: #F2EBE9;
-    font-family:    Arial, Helvetica, sans-serif;
-    text-decoration: underline;     
-    position: absolute;
-    text-align: center; 
-    top : 50%;
-    left : 50%;
-    font-size: 2cm;
-    
-    transform: translate(-50%, 50%);
-}
-
 
 .mainTitleDesc
 {
@@ -52,7 +43,44 @@
     transform: translate(-50%, -660%);
 }
 
-body
+.sectionTitle
 {
-    background-color: rgb(31, 31, 31);
+    text-align: center; 
+    top : 50%;
+    left : 50%;
+    font-size: 1cm;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(31, 31, 31);
+}
+
+.LearnMoreButton
+{
+    border-radius: 30px;
+    border-color: #F2EBE9;
+    background-color: rgba(0, 0, 0, 0);
+    color: #A5BECC;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:25px;
+    border-width: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -200%);
+}
+
+.AboutContent
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.5cm;
+    color: #A5BECC;
+    position: absolute;
+    text-align: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 1250%);
+}
+
+html, body {
+  margin:0px;
+  height:100%;
 }
