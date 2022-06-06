@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Squid Dev | Home</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <link rel="stylesheet" href="main-style.css">
+        <link rel="stylesheet" href="top_bar.css">
+    </head>
+    <body>
+        <div class="TopBar">
+            <button onclick="location.href='#FadeIn'" type="button">Home</button>
+            <button onclick="location.href='#About'" type="button">About</button>
+            <button onclick="location.href='#FadeIn'" type="button">Project</button>
+            <button onclick="location.href='#FadeIn'" type="button">Contact</button>
+        </div>
+
+        <div id="FadeIn" class="MainDiv">
+            <h1 class="mainTitle">SquidyDev</h1>
+            <h3 class="mainTitleDesc">C#, Python and Unity developper</h3>
+            <button onclick="location.href='#About'" type="button" class="LearnMoreButton">Learn more ↓</button>
+        </div>
+
+        <div class="AboutSection">
+            <h1 class="sectionTitle" id="AboutTitle">Who am I ?</h1>
+            <p class="AboutContent" id="About">Hello ! My name is Matthias. I'm 14 years old and I develop things on my free time.<br>I like to program games, simulation, or software (more in the projet section). <br><br> I'm currently in Highschool (France), studying various subjects, I learn things related to computers or programming on my free time.</p>
+            <a href="#FadeIn"><img class="AboutImage" src="assets/squidydev_logo.png" alt="My profile picture"></a>
+        </div>
+
+        <h1 class="loadingText" id="LoadingText">>SquidyDev</h1>
+
+        <p class="CopyrightText">© 2022 SquidyDev</p>
+
+        <script src="main.js"></script>
+    </body>
+</html>

@@ -13,7 +13,7 @@
 
 .MainDiv
 {
-    background-color: rgb(31, 31, 31);
+    background-image: linear-gradient(to bottom right, rgb(31, 31, 31), rgb(54, 54, 54));
     height: 100vh;
 }
 
@@ -43,6 +43,7 @@
     transform: translate(-50%, -660%);
 }
 
+
 .sectionTitle
 {
     text-align: center; 
@@ -68,19 +69,33 @@
     transform: translate(-50%, -200%);
 }
 
+.LearnMoreButton:hover
+{
+    font-size: 30px;
+}
+
 .AboutContent
 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.5cm;
-    color: #A5BECC;
+    color: #243A73;
     position: absolute;
     text-align: left;
-    top: 50%;
     left: 50%;
-    transform: translate(-50%, 1250%);
+    transform: translate(-75%, 0%);
+}
+
+.AboutImage
+{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 50%;
+    transform: translate(100%, 0%);
 }
 
 html, body {
-  margin:0px;
-  height:100%;
+    scroll-behavior: smooth;
+    margin:0px;
+    height:100%;
 }

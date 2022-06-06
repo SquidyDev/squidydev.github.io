@@ -7,11 +7,32 @@
 
 .TopBar
 {
-    text-align: right;
+    overflow: hidden;
+    background-color: rgb(31, 31, 31);
+    position: fixed;
 }
 
-a:hover
+.TopBar button 
 {
-    color:#7C3E66;
-    font-size:22px;
+    float: left;
+    border-radius: 10px;
+    border-color: #827397;
+    background-color: rgba(0, 0, 0, 0);
+    color: #E9D5CA;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.TopBar button:hover
+{
+    font-size: 30px;
+}
+
+.CopyrightText
+{
+    bottom: -1%;
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #E9D5CA;
 }

@@ -8,6 +8,8 @@ $(document).ready(function(){
     var currentOutput = "> _";
     var timePerIteration = 400;
 
+    $("body").css({"background-image": "linear-gradient(to bottom right, rgb(31, 31, 31), rgb(54, 54, 54))"});
+
     for(var i = 0; i < text.length; i++)
     {
         setTimeout(function() {
@@ -36,7 +38,12 @@ $(document).ready(function(){
 
     setTimeout(function() {
         $(LoadingText).text("");
-        $('body > :not(#myDiv)').fadeIn(1000);
-        alert("Website under construction !");
+        $("body").css({"background-color": "white"});
+        $("html").css({"background-color": "white"});
+        $('body > :not(#myDiv)').fadeIn(500);
     }, pastDelay);
+
+    setTimeout(function(){
+        alert("This websie is undercosntruction, everything is not implemented yet !");
+    }, (pastDelay + 500));
 });
