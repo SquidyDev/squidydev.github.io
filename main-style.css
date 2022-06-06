@@ -94,12 +94,6 @@
     transform: translate(100%, 0%);
 }
 
-.ProjectSection
-{
-    background-color: #A5BECC;
-    transform: translate(0%, -75%);
-}
-
 html, body {
     scroll-behavior: smooth;
     margin:0px;
